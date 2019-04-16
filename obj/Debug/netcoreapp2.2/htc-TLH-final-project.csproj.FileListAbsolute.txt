@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\htc-TLH-final-project\bin\Debug\netcoreapp2.2\htc-TLH-final-project.deps.json
+C:\Users\User\Desktop\htc-TLH-final-project\bin\Debug\netcoreapp2.2\htc-TLH-final-project.runtimeconfig.json
+C:\Users\User\Desktop\htc-TLH-final-project\bin\Debug\netcoreapp2.2\htc-TLH-final-project.runtimeconfig.dev.json
+c:\Users\User\Desktop\htc-TLH-final-project\bin\Debug\netcoreapp2.2\htc-TLH-final-project.dll
+c:\Users\User\Desktop\htc-TLH-final-project\bin\Debug\netcoreapp2.2\htc-TLH-final-project.pdb
+c:\Users\User\Desktop\htc-TLH-final-project\obj\Debug\netcoreapp2.2\htc-TLH-final-project.csprojAssemblyReference.cache
+c:\Users\User\Desktop\htc-TLH-final-project\obj\Debug\netcoreapp2.2\htc-TLH-final-project.csproj.CoreCompileInputs.cache
+c:\Users\User\Desktop\htc-TLH-final-project\obj\Debug\netcoreapp2.2\htc-TLH-final-project.AssemblyInfoInputs.cache
+c:\Users\User\Desktop\htc-TLH-final-project\obj\Debug\netcoreapp2.2\htc-TLH-final-project.AssemblyInfo.cs
+c:\Users\User\Desktop\htc-TLH-final-project\obj\Debug\netcoreapp2.2\htc-TLH-final-project.dll
+c:\Users\User\Desktop\htc-TLH-final-project\obj\Debug\netcoreapp2.2\htc-TLH-final-project.pdb
