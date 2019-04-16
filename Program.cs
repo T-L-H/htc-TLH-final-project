@@ -9,11 +9,14 @@ namespace htc_TLH_final_project
         
             Console.WriteLine("Hello! What is your name?");
             string name = Console.ReadLine();
+             string PersonChoice = "";
+             string RoomChoice;
+             string WeaponChoice;
           while (true)
           {
               
           
-            Console.WriteLine("Hello " + name + ". Welcome to CLUE! To start, do you know the instructions?");
+            Console.WriteLine("Hello " + name + ". Welcome to CLUE! There is a bug in Hyland. It was planted by either Green, Scarlet, Mustard, or White. It is your job to guess who it was. in what room it was planted in and what weapon they used to protect themselves. The weapon could have been a gun, a rock, a knife, or an ice cream cone. The room could of been the coding room, the cafiteria, the breakplace, or in the slide. Good Luck.");?");
             string PlayedBefore = Console.ReadLine();
             
             if(PlayedBefore == "yes" || PlayedBefore == "Yes"){
@@ -21,7 +24,7 @@ namespace htc_TLH_final_project
                 
             Console.WriteLine("Choose a number between 1 to 4.");
                 string PersonNumber = Console.ReadLine();
-                string PersonChoice = "";
+               
                  if (PersonNumber == "1"){
                      PersonChoice = "Mustard";
                     
@@ -34,22 +37,20 @@ namespace htc_TLH_final_project
                      PersonChoice = "White";
                      
                 }
-                 else /*(PersonNumber == "4")*/{
+                 else if (PersonNumber == "4"){
                      PersonChoice = "Green";
                      
                 }
+
+                else {PersonChoice = "null";}
                
             }
 
-            else if(PlayedBefore == "no" || PlayedBefore == "No"){
-           
-                Console.WriteLine("There is a bug in Hyland. It was planted by either Green, Scarlet, Mustard, or White. It is your job to guess who it was. in what room it was planted in and what weapon they used to protect themselves. The weapon could have been a gun, a rock, a knife, or an ice cream cone. The room could of been the coding room, the cafiteria, the breakplace, or in the slide. Good Luck.");
-               
-            }
+            
 
             Console.WriteLine("Great! Now choose another 1 through 4");
              string RoomNumber = Console.ReadLine();
-              string RoomChoice;
+              
              if (RoomNumber == "1"){
                     RoomChoice = "Break Place";
             
@@ -69,7 +70,7 @@ namespace htc_TLH_final_project
 
             Console.WriteLine("Great! Now choose ANOTHER 1 through 4. believe me, this is the last time.");
              string WeaponNumber = Console.ReadLine();
-            string WeaponChoice;
+            
              if (WeaponNumber == "1"){
                     WeaponChoice = "gun";
             
@@ -85,7 +86,8 @@ namespace htc_TLH_final_project
             
              }
              
-             else if (WeaponNumber == "4"){
+             else if (WeaponNumber == "4")
+             {
                    WeaponChoice = "Knife";
             
              }
